@@ -1,0 +1,24 @@
+# Kredensial & konfigurasi lokal
+config/database.local.php
+.env
+.env.*
+
+# Data & backup database asli (jangan commit data nyata)
+*.sql.bak
+*.dump
+database/*.local.sql
+database/backup*/
+
+# File upload / import berisi data pribadi
+uploads/
+*.xlsx
+*.xls
+*.csv
+!assets/**/*.csv
+
+# Log & sistem
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
